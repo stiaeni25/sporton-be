@@ -3,7 +3,7 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import User from "../models/user.model";
 
-const JWT_SECRET = process.env.JWT_SECRET || "sporton127";
+const JWT_SECRET = process.env.JWT_SECRET || "sporton123";
 
 export const signin = async (req: Request, res: Response): Promise<void> => {
   try {
